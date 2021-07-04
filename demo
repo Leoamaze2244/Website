@@ -1,3 +1,4 @@
+<style>
 @font-face {
   font-family: "Some font";
   src: url("css/fonts/some-font.eot");
@@ -5,9 +6,11 @@
        url("css/fonts/some-font.otf") format("opentype"),
        url("css/fonts/some-font.svg#filename") format("svg");
 }
-
+</style>
+<html>
 h1 {
   font-family: 'Some font', Arial, sans-serif;
   font-weight:normal;
   font-style:normal;
 }
+</html>
